@@ -1,0 +1,29 @@
+.contents{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.header{
+	background: grey;
+}
+
+.generation{
+	padding: 10px;
+	font-size: 10px;
+}
+
+.head{
+	display: inline-block;
+	padding: 10px;
+	color: white;
+}
+
+.footer{
+	background: grey;
+}
+
+.foot{
+	display: inline-block;
+	padding: 10px;
+	color: white;
+}
