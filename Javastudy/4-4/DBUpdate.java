@@ -41,7 +41,7 @@ public class DBUpdate {
             		JDBC_CONNECTION, USER, PASS);
             statement = connection.createStatement();
             // 問⑤ SHOHIN_IDが020のSHOHIN_NAMEを「商品20」に変更するためのSQL文を記述しましょう。
-            String SQL = "select shohin_name 商品20 from tb_shohin where shohin_id='020'";
+            String SQL = "update tb_shohin set shohin_name='商品20' where shohin_id='020'";
             // 問⑥ 上記のSQL文を実行するための文を記述しましょう。
             resultSet = statement.executeQuery(SQL);
             //一覧表示
